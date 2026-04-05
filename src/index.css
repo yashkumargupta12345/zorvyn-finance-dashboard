@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 dark:bg-gray-950 transition-colors duration-200;
+    font-size: 16px; /* Base font size increased */
+  }
+  
+  /* Larger default text */
+  h1 {
+    @apply text-3xl md:text-4xl font-bold;
+  }
+  
+  h2 {
+    @apply text-2xl md:text-3xl font-semibold;
+  }
+  
+  h3 {
+    @apply text-xl md:text-2xl font-semibold;
+  }
+  
+  p, span, li {
+    @apply text-base md:text-lg;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white dark:bg-gray-900 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-500 hover:bg-primary-600 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 text-base;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-200 font-semibold py-3 px-6 rounded-lg transition-all duration-200 text-base;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border border-gray-300 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent dark:bg-gray-800 dark:text-white transition-all duration-200 text-base;
+  }
+  
+  /* Larger summary card text */
+  .summary-value {
+    @apply text-3xl md:text-4xl font-bold;
+  }
+  
+  .summary-label {
+    @apply text-base md:text-lg font-medium;
+  }
+}
