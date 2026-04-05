@@ -1,7 +1,7 @@
 # Finance Dashboard - Frontend Developer Intern Assignment
 
 ## 🚀 Live Demo
-[https://zorvyn-finance-dashboard-drab.vercel.app/]
+https://zorvyn-finance-dashboard-drab.vercel.app/
 
 ## 📋 Project Overview
 A comprehensive finance dashboard application built with React and Tailwind CSS that helps users track their financial activities, visualize spending patterns, and gain valuable insights. The application features role-based access control, data persistence, and responsive design.
